@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
     <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js" defer></script> 
 </head>
-
 <body>
     <div class="container">
         <header>
             <h1>Derik Salazar Lopez</h1>
-            <p>Estudiante de ingeneria</p>
+            <p>Estudiante de ingeniería</p>
             <p>Correo: dsalazar35214@ucq.edu.mx | Teléfono: (555) 555-5555</p>
         </header>
         <section>
@@ -27,7 +27,7 @@
         <section>
             <h2>Educación</h2>
             <div class="education">
-                <h3>universidad cuauhtemoc</h3>
+                <h3>Universidad Cuauhtémoc</h3>
                 <p><em>Ingeniería en software y Sistemas</em> - Cursando </p>
             </div>
         </section>
@@ -43,8 +43,13 @@
             <h2>Idiomas</h2>
             <ul class="languages">
                 <li>Español (Nativo)</li>
-                <li>Inglés (principiante)</li>
+                <li>Inglés (Principiante)</li>
             </ul>
+        </section>
+        <section>
+            <h2>Usuarios</h2>
+            <button id="fetchUsers">Obtener Usuarios</button>
+            <div id="user-list"></div>
         </section>
     </div>
 </body>
